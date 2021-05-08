@@ -1,0 +1,83 @@
+MCU Board Name,Dataset Name,Network Architecture,Inference Time (microseconds)
+Arduino Nano 33,Breast cancer,FC 1 x 10,138.71
+Arduino Nano 33,Breast cancer,FC 10 x 10,472.11
+Arduino Nano 33,Breast cancer,FC 10+50,286.86
+Arduino Nano 33,Digits,FC 1 x 10,390.25
+Arduino Nano 33,Digits,FC 10 x 10,719.08
+Arduino Nano 33,Digits,FC 10+50,589.75
+Arduino Nano 33,Iris,FC 1 x 10,113.61
+Arduino Nano 33,Iris,FC 10 x 10,442.75
+Arduino Nano 33,Iris,FC 10+50,266.54
+Arduino Nano 33,Wine,FC 1 x 10,130.1
+Arduino Nano 33,Wine,FC 10 x 10,460.02
+Arduino Nano 33,Wine,FC 10+50,283.82
+Arduino Portenta M7,Breast cancer,FC 1 x 10,13.75
+Arduino Portenta M7,Breast cancer,FC 10 x 10,55.16
+Arduino Portenta M7,Breast cancer,FC 10+50,31.72
+Arduino Portenta M7,Digits,FC 1 x 10,26.96
+Arduino Portenta M7,Digits,FC 10 x 10,69.54
+Arduino Portenta M7,Digits,FC 10+50,51.56
+Arduino Portenta M7,Iris,FC 1 x 10,8.71
+Arduino Portenta M7,Iris,FC 10 x 10,49.85
+Arduino Portenta M7,Iris,FC 10+50,27.35
+Arduino Portenta M7,Wine,FC 1 x 10,10.94
+Arduino Portenta M7,Wine,FC 10 x 10,52.11
+Arduino Portenta M7,Wine,FC 10+50,29.55
+ESP32 Dev Module,Breast cancer,FC 1 x 10,36.31
+ESP32 Dev Module,Breast cancer,FC 10 x 10,125.03
+ESP32 Dev Module,Breast cancer,FC 10+50,74.86
+ESP32 Dev Module,Digits,FC 1 x 10,77.25
+ESP32 Dev Module,Digits,FC 10 x 10,172.94
+ESP32 Dev Module,Digits,FC 10+50,130.61
+ESP32 Dev Module,Iris,FC 1 x 10,20.83
+ESP32 Dev Module,Iris,FC 10 x 10,109.23
+ESP32 Dev Module,Iris,FC 10+50,61.17
+ESP32 Dev Module,Wine,FC 1 x 10,28.89
+ESP32 Dev Module,Wine,FC 10 x 10,117.95
+ESP32 Dev Module,Wine,FC 10+50,69.28
+"Feather M4 Express {opt=fastest,speed=200}",Breast cancer,FC 1 x 10,31.81
+"Feather M4 Express {opt=fastest,speed=200}",Breast cancer,FC 10 x 10,132.66
+"Feather M4 Express {opt=fastest,speed=200}",Breast cancer,FC 10+50,79.13
+"Feather M4 Express {opt=fastest,speed=200}",Digits,FC 1 x 10,69.89
+"Feather M4 Express {opt=fastest,speed=200}",Digits,FC 10 x 10,167.29
+"Feather M4 Express {opt=fastest,speed=200}",Digits,FC 10+50,132.14
+"Feather M4 Express {opt=fastest,speed=200}",Iris,FC 1 x 10,17.79
+"Feather M4 Express {opt=fastest,speed=200}",Iris,FC 10 x 10,118.9
+"Feather M4 Express {opt=fastest,speed=200}",Iris,FC 10+50,67.17
+"Feather M4 Express {opt=fastest,speed=200}",Wine,FC 1 x 10,23.84
+"Feather M4 Express {opt=fastest,speed=200}",Wine,FC 10 x 10,124.46
+"Feather M4 Express {opt=fastest,speed=200}",Wine,FC 10+50,72.93
+NUCLEO H743ZI2 {opt=o3},Breast cancer,FC 1 x 10,8.5
+NUCLEO H743ZI2 {opt=o3},Breast cancer,FC 10 x 10,34.19
+NUCLEO H743ZI2 {opt=o3},Breast cancer,FC 10+50,20.18
+NUCLEO H743ZI2 {opt=o3},Digits,FC 1 x 10,18.08
+NUCLEO H743ZI2 {opt=o3},Digits,FC 10 x 10,44.16
+NUCLEO H743ZI2 {opt=o3},Digits,FC 10+50,33.8
+NUCLEO H743ZI2 {opt=o3},Iris,FC 1 x 10,18.5
+NUCLEO H743ZI2 {opt=o3},Iris,FC 10 x 10,31.51
+NUCLEO H743ZI2 {opt=o3},Iris,FC 10+50,17.8
+NUCLEO H743ZI2 {opt=o3},Wine,FC 10 x 10,32.57
+NUCLEO H743ZI2 {opt=o3},Wine,FC 10+50,19.06
+Raspberry Pi Pico,Breast cancer,FC 1 x 10,872.85
+Raspberry Pi Pico,Breast cancer,FC 10 x 10,3369.54
+Raspberry Pi Pico,Breast cancer,FC 10+50,2413.44
+Raspberry Pi Pico,Digits,FC 1 x 10,1982.31
+Raspberry Pi Pico,Digits,FC 10 x 10,4503.25
+Raspberry Pi Pico,Digits,FC 10+50,4314.19
+Raspberry Pi Pico,Iris,FC 1 x 10,313.77
+Raspberry Pi Pico,Iris,FC 10 x 10,2801.82
+Raspberry Pi Pico,Iris,FC 10+50,1953.96
+Raspberry Pi Pico,Wine,FC 1 x 10,509.76
+Raspberry Pi Pico,Wine,FC 10 x 10,3021.03
+Raspberry Pi Pico,Wine,FC 10+50,2176.92
+Teensy 4.0,Breast cancer,FC 1 x 10,5.16
+Teensy 4.0,Breast cancer,FC 10 x 10,20.15
+Teensy 4.0,Breast cancer,FC 10+50,12.32
+Teensy 4.0,Digits,FC 10 x 10,26.09
+Teensy 4.0,Digits,FC 10+50,21.01
+Teensy 4.0,Iris,FC 1 x 10,3.14
+Teensy 4.0,Iris,FC 10 x 10,18.12
+Teensy 4.0,Iris,FC 10+50,11.13
+Teensy 4.0,Wine,FC 1 x 10,3.86
+Teensy 4.0,Wine,FC 10 x 10,18.92
+Teensy 4.0,Wine,FC 10+50,11.43
