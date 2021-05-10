@@ -11,16 +11,16 @@ The beloe Figure (y-axis in base-10 log scale) presents the average time taken b
 
 ### Datasets (D1 - D10)
 
-1. D1: [Iris Flowers](https://archive.ics.uci.edu/ml/datasets/iris): (4 features, 3 classes, 150 samples)
-2. D2: [Wine](https://archive.ics.uci.edu/ml/datasets/wine): (13 features, 3 classes, 178)
-3. D3: [Vowel](https://archive.ics.uci.edu/ml/datasets/Japanese+Vowels): (13 features, 11 classes, 989 samples)
-4. D4: [Statlog Vehicle Silhouettes](https://archive.ics.uci.edu/ml/datasets/Statlog+%28Vehicle+Silhouettes%29): (18 features, 4 classes, 845 samples)
-5. D5: [Anuran Calls](https://archive.ics.uci.edu/ml/datasets/Anuran+Calls+%28MFCCs%29): (64 features, 10 classes, 1797 samples)
-6. D6: [Breast Cancer](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data): (30 features, 2 classes, 569 samples)
-7. D7: [Texture](https://www.robots.ox.ac.uk/~vgg/data/dtd/index.html): (40 features, 11 classes, 5000 samples)
-8. D8: [Sensorless Drive Diagnosis](https://archive.ics.uci.edu/ml/datasets/dataset+for+sensorless+drive+diagnosis): (48 features, 11 classes, 999 samples)
-9. D9: [MNIST Handwritten Digits](http://yann.lecun.com/exdb/mnist/): (64 features, 10 classes, 1797 samples)
-10. D10: [Human Activity](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones): (74 features, 6 classes, 5000 samples)
+D1 [Iris Flowers](https://archive.ics.uci.edu/ml/datasets/iris): (4 features, 3 classes, 150 samples) <br/>
+D2: [Wine](https://archive.ics.uci.edu/ml/datasets/wine): (13 features, 3 classes, 178) <br/>
+D3: [Vowel](https://archive.ics.uci.edu/ml/datasets/Japanese+Vowels): (13 features, 11 classes, 989 samples) <br/>
+D4: [Statlog Vehicle Silhouettes](https://archive.ics.uci.edu/ml/datasets/Statlog+%28Vehicle+Silhouettes%29): (18 features, 4 classes, 845 samples) <br/>
+D5: [Anuran Calls](https://archive.ics.uci.edu/ml/datasets/Anuran+Calls+%28MFCCs%29): (64 features, 10 classes, 1797 samples)<br/>
+D6: [Breast Cancer](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data): (30 features, 2 classes, 569 samples)<br/>
+D7: [Texture](https://www.robots.ox.ac.uk/~vgg/data/dtd/index.html): (40 features, 11 classes, 5000 samples)<br/>
+D8: [Sensorless Drive Diagnosis](https://archive.ics.uci.edu/ml/datasets/dataset+for+sensorless+drive+diagnosis): (48 features, 11 classes, 999 samples)<br/>
+D9: [MNIST Handwritten Digits](http://yann.lecun.com/exdb/mnist/): (64 features, 10 classes, 1797 samples)<br/>
+D10: [Human Activity](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones): (74 features, 6 classes, 5000 samples)<br/>
 
 
 ### MCU Boards (B1 - B7)
