@@ -1,8 +1,8 @@
 # TinyML-Benchmark
 
-## MCU oards, datasets, NNs chosen for the TinyML benchmark
+## MCU boards, datasets, NNs chosen for the TinyML benchmark
 
-### MCU Boards (B1 - B7)
+### MCU boards (B1 - B7)
 
 B1: [Teensy 4.0](https://www.pjrc.com/teensy/) (Cortex-M7 @600 MHz, 2MB Flash, 1MB SRAM) <br/>
 B2: [STM32 Nucleo H7](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) (Cortex-M7 @480 MHz, 2MB Flash, 1 MB SRAM) <br/>
@@ -49,7 +49,7 @@ The below Figure (y-axis in base-10 log scale) presents the average time taken b
 
 ![alt text](https://github.com/bharathsudharsan/TinyML-Benchmark-NNs-on-MCUs/blob/main/Fig1_B1-B7_inference_time.png)
 
-## Executing NNs on STM32 Nucleo H7 (B2): Inference time and memory used
+## Executing NNs on STM32 Nucleo H7 (B2): inference time and memory used
 
 The below Figure (y-axis in base-10 log scale) presents the complete inference time on the STM32 Nucleo H7 (B2) for each of the 30 models. 
 1. When considering the *FC 1x10* network, for the 4 features Iris dataset (D1), it took 5.16 µs to infer, and for the highest 74 features Human Activity dataset (D10), it took 872.85 µs to infer. 
