@@ -25,10 +25,10 @@ D10: [Human Activity](https://archive.ics.uci.edu/ml/datasets/human+activity+rec
 
 ### MCU Boards (B1 - B7)
 
-1. B1:
-2. B2:
-3. B3:
-4. B4:
-5. B5:
-6. B6:
-7. B7: 
+B1: Teensy 4.0 (Cortex-M7 @600, 2MB Flash, 1MB SRAM <br/>
+B2: STM32 Nucleo H7    Cortex-M7, 2, 1 MB, 480 <br/>
+B3: Arduino PortentaCortex-M7+M4, 2, 1MB, 480 <br/>
+B4: Feather M4 Express  Cortex-M4, 2, 192KB, 120 <br/>
+B5: Generic ESP32Xtensa LX6, 4, 520KB, 240 <br/>
+B6: Arduino Nano 33Cortex-M4, 1, 256KB, 64 <br/>
+B7: Raspberry Pi PicoCortex-M0+, 16, 264KB, 133 <br/>
