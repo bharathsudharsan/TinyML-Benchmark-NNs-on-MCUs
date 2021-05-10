@@ -1,1 +1,4 @@
-# TinyML-Benchmark
+Below Figure presents the complete inference time on the [STM32 Nucleo H7](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) (B2) for each of the 30 models. 
+When considering the *FC 1x10* network, for the 4 features Iris dataset, it took 5.16 µs to infer, and for the highest 74 features Human Activity dataset, it took 872.85 micro sec to infer. 
+When considering *FC 10x10*, for Iris dataset, it took 20.15 micro sec, and 3369.54 micro sec for Human Activity dataset. 
+Portenta (B3) and B2 are on quite a par since they share processors from the same ARM Cortex-M7 family, but B2 is faster across all the NN topologies. 
