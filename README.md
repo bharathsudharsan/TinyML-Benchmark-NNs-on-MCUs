@@ -1,5 +1,17 @@
 # TinyML-Benchmark
 
+## MCU oards, datasets, NNs chosen for the TinyML benchmark
+
+### MCU Boards (B1 - B7)
+
+B1: [Teensy 4.0](https://www.pjrc.com/teensy/) (Cortex-M7 @600 MHz, 2MB Flash, 1MB SRAM) <br/>
+B2: [STM32 Nucleo H7](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) (Cortex-M7 @480 MHz, 2MB Flash, 1 MB SRAM) <br/>
+B3: [Arduino Portenta](https://store.arduino.cc/portenta-h7) (Cortex-M7+M4 @480 MHz, 2MB Flash, 1MB SRAM) <br/>
+B4: [Feather M4 Express](https://www.adafruit.com/product/3857)  (Cortex-M4 @120 MHz, 2MB Flash, 192KB SRAM) <br/>
+B5: [Generic ESP32](https://esphome.io/devices/nodemcu_esp32.html) (Xtensa LX6 @240 MHz, 4MB Flash, 520KBSRAM) <br/>
+B6: [Arduino Nano 33](https://store.arduino.cc/arduino-nano-33-iot) (Cortex-M4 @64 MHz, 1MB Flash, 256KB SRAM) <br/>
+B7: [Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) (Cortex-M0+ @133 MHz, 16MB Flash, 264KB SRAM) <br/>
+
 ### Datasets (D1 - D10)
 
 D1 [Iris Flowers](https://archive.ics.uci.edu/ml/datasets/iris): (4 features, 3 classes, 150 samples) <br/>
@@ -14,25 +26,15 @@ D9: [MNIST Handwritten Digits](http://yann.lecun.com/exdb/mnist/): (64 features,
 D10: [Human Activity](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones): (74 features, 6 classes, 5000 samples)<br/>
 
 
-### MCU Boards (B1 - B7)
-
-B1: [Teensy 4.0](https://www.pjrc.com/teensy/) (Cortex-M7 @600 MHz, 2MB Flash, 1MB SRAM) <br/>
-B2: [STM32 Nucleo H7](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) (Cortex-M7 @480 MHz, 2MB Flash, 1 MB SRAM) <br/>
-B3: [Arduino Portenta](https://store.arduino.cc/portenta-h7) (Cortex-M7+M4 @480 MHz, 2MB Flash, 1MB SRAM) <br/>
-B4: [Feather M4 Express](https://www.adafruit.com/product/3857)  (Cortex-M4 @120 MHz, 2MB Flash, 192KB SRAM) <br/>
-B5: [Generic ESP32](https://esphome.io/devices/nodemcu_esp32.html) (Xtensa LX6 @240 MHz, 4MB Flash, 520KBSRAM) <br/>
-B6: [Arduino Nano 33](https://store.arduino.cc/arduino-nano-33-iot) (Cortex-M4 @64 MHz, 1MB Flash, 256KB SRAM) <br/>
-B7: [Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) (Cortex-M0+ @133 MHz, 16MB Flash, 264KB SRAM) <br/>
-
 ### Architecture of the networks executed on MCU boards 
 
-**FC 1 x 10: 1 layer with 10 neurons**
+**FC 1 x 10: 1 layer with 10 neurons:**
 ![alt text](https://github.com/bharathsudharsan/TinyML-Benchmark/blob/main/TFLite_trained_models/FC%201%20x%2010_Breast%20cancer.png)
 
-**FC 10 x 10:  10 layers, where each layer contains 10 neurons**
+**FC 10 x 10:  10 layers, where each layer contains 10 neurons:**
 ![alt text](https://github.com/bharathsudharsan/TinyML-Benchmark/blob/main/TFLite_trained_models/FC%2010%20x%2010_Breast%20cancer.png)
 
-**FC 10 + 50: 2 layers, where 1st layer contains 10 neurons, and 2nd layer contains 50 neurons**
+**FC 10 + 50: 2 layers, where 1st layer contains 10 neurons, and 2nd layer contains 50 neurons:**
 ![alt text](https://github.com/bharathsudharsan/TinyML-Benchmark/blob/main/TFLite_trained_models/FC%2010%2B50_Breast%20cancer.png)
 
 
