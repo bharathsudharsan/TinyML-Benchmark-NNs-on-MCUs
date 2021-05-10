@@ -1,6 +1,6 @@
 ## NN inference performance on 7 MCU boards
 
-The beloe Figure (y-axis in base-10 log scale) presents the average time taken by MCU boards B1 - B7 to infer using D1 - D10. 
+The below Figure (y-axis in base-10 log scale) presents the average time taken by MCU boards B1 - B7 to infer using D1 - D10. 
 
 1. For all 3 NN types, Teensy 4.0 (B1) is the fastest as it performed unit inference in 3.14 µs, 11.13 µs, 18.12 µs respectively. 
 2. For the same data samples, Raspberry Pi Pico (B7) is the slowest (≈ 99 - 175 x times slower than B1), as it took 313.77 µs, 1953.96 µs, 2801.82 µs. 
@@ -25,10 +25,10 @@ D10: [Human Activity](https://archive.ics.uci.edu/ml/datasets/human+activity+rec
 
 ### MCU Boards (B1 - B7)
 
-B1: Teensy 4.0 (Cortex-M7 @600, 2MB Flash, 1MB SRAM <br/>
-B2: STM32 Nucleo H7    Cortex-M7, 2, 1 MB, 480 <br/>
-B3: Arduino PortentaCortex-M7+M4, 2, 1MB, 480 <br/>
-B4: Feather M4 Express  Cortex-M4, 2, 192KB, 120 <br/>
-B5: Generic ESP32Xtensa LX6, 4, 520KB, 240 <br/>
-B6: Arduino Nano 33Cortex-M4, 1, 256KB, 64 <br/>
-B7: Raspberry Pi PicoCortex-M0+, 16, 264KB, 133 <br/>
+B1: [Teensy 4.0](https://www.pjrc.com/teensy/) (Cortex-M7 @600 MHz, 2MB Flash, 1MB SRAM) <br/>
+B2: [STM32 Nucleo H7]() (Cortex-M7 @480 MHz, 2MB Flash, 1 MB SRAM) <br/>
+B3: [Arduino Portenta]() (Cortex-M7+M4 @480 MHz, 2MB Flash, 1MB SRAM) <br/>
+B4: [Feather M4 Express]()  (Cortex-M4 @120 MHz, 2MB Flash, 192KB SRAM) <br/>
+B5: [Generic ESP32]() (Xtensa LX6 @240 MHz, 4MB Flash, 520KBSRAM) <br/>
+B6: [Arduino Nano 33] (Cortex-M4 @64 MHz, 1MB Flash, 256KB SRAM) <br/>
+B7: [Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) (Cortex-M0+ @133 MHz, 16MB Flash, 264KB SRAM) <br/>
