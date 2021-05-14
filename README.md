@@ -60,3 +60,16 @@ The below Figure (y-axis in base-10 log scale) presents the complete inference t
 The below Figure presents the time taken by Arduino IDE to compile each of the 30 models for STM32 Nucleo H7 (B2), along with the complete FLASH and SRAM requirements. The models trained using the datasets with more features, classes consumed higher compilation time, and higher fash memory.
 
 ![alt-text-1](https://github.com/bharathsudharsan/TinyML-Benchmark-NNs-on-MCUs/blob/main/Fig3_Flash_complie_time_SRAM_on_B2.png) 
+
+If you find our TinyML benchmark helpful for your work, please cite this paper using the BibTex entry below.
+
+```
+@inproceedings{BharathTinyML,
+  author    = {Bharath Sudharsan and Simone Salerno and Duc-Duy Nguyen and Muhammad Yahya and Abdul Wahid and Piyush Yadav and John G. Breslin and Muhammad Intizar Alii},
+  title     = {TinyML Benchmark: Executing Fully Connected Neural Networks on Commodity Microcontrollers },
+  booktitle = {IEEE 7th World Forum on Internet of Things},
+  year      = {2021}
+}
+```
+
+For any clarification/further information please don't hesitate to contact me. Email: b.sudharsan1@nuigalway.ie
