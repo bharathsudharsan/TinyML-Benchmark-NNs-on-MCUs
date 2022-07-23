@@ -74,4 +74,4 @@ If you find our TinyML benchmark helpful for your work, please cite this paper u
 }
 ```
 
-For any clarification/further information please don't hesitate to contact me. Email: b.sudharsan1@nuigalway.ie
+For any clarification/further information please don't hesitate to contact me. Email: bharathsudharsan023@gmail.com
